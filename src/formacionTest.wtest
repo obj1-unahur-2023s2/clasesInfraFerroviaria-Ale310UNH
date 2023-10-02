@@ -3,7 +3,7 @@ import vagones.*
 
 describe "Formacion" {
 	const formacion = new Formacion()
-	const pasajero_1 = new Pasajero(ancho=4, largo=10, tieneBanios=true)
+	const pasajero_1 = new Pasajero(ancho=4, largo=10, tieneBanios=true , estaOrdenado = true)
 	const pasajero_2 = new Pasajero(ancho=2, largo=7, tieneBanios=false, estaOrdenado=false)
 	const carga_1 = new Carga(cargaMaximaIdeal=6800 , maderasSueltas=5)
 	const dormitorio_1= new Dormitorio(cantidadCompartimientos=8, camasPorCompartimiento=3)

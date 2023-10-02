@@ -1,8 +1,8 @@
 import vagones.*
 
 describe "Vagones" {
-	const pasajero_1 = new Pasajero(ancho=2, largo=10, tieneBanios=true)
-	const pasajero_2 = new Pasajero(ancho=4, largo=7, tieneBanios=false)
+	const pasajero_1 = new Pasajero(ancho = 2, largo = 10, tieneBanios = true, estaOrdenado = true
+	const pasajero_2 = new Pasajero(ancho = 4, largo = 7, tieneBanios = false, esta ordenado = true)
 	const carga_1 = new Carga(cargaMaximaIdeal=8000 , maderasSueltas=5)
 	const carga_2 = new Carga(cargaMaximaIdeal=8000 , maderasSueltas=2)
 	const dormitorio_1= new Dormitorio(cantidadCompartimientos=12, camasPorCompartimiento=4)
